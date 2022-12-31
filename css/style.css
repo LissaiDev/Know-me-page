@@ -1,0 +1,102 @@
+/*Configuracoes gerais*/
+body,html{
+	overflow-x: hidden;
+}
+	/*Background*/
+	body{
+		background: #f7f7f7;
+	}
+	.borda{
+		border: 1px solid red;
+	}
+	header{
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 80px;
+	}
+
+	/*Fontes*/
+
+	/*Links*/
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	/*Tipografia*/
+	h1{
+		font-size: 3.3em;
+		font-weight: 400;
+	}
+
+
+/*Configuracoes no cabecalho*/
+	/*Configuracoes nos links*/
+	a.nav-link{
+		color: black;
+		font-size: 0.8em;
+		font-weight: 200;
+	}
+
+	/*Configuracoes no logo*/
+	#logo{
+		background: #ffef5c;
+	}
+	#logo1{
+		font-weight: 800;
+	}
+	#logo2{
+		font-size: 0.5em;
+    	letter-spacing: 0.1em;
+    	font-weight: 100;
+	}
+
+	/*Configuracoes na barra de navegacao*/
+	a.marcacao{
+		text-decoration: none;
+		color: black;
+		font-size: 0.8em;
+		font-weight: 300;
+		background: #ffef5c;
+	}
+	a.marcacao:hover{
+		background: #f7f7f7;
+		font-size: 1em;
+		transition: all 0.5s;
+	}
+
+	/*Configuracoes em botoes*/
+
+
+	/*Configuracoes na barra de pesquisa*/
+
+
+/*Configuracoes no corpo*/
+	#apresentacao{
+		margin-top: 130px;
+	}
+	#texto-maior{
+		background: #ffef5c;
+	}
+	.questions{
+		margin-top: 150px;
+	}
+	.titulo{
+		font-size:2em ;
+		font-weight: 400;
+	}
+	.accordion-button:not(.collapsed){
+		color: black;
+		background: white;
+	}
+	button.botao{
+		background: #ffef5c;
+	}
+	button.botao:hover,button.btn-dark:hover{
+		background: none;
+		border: 1px solid black;
+		color: black;
+	}
+
+
+/*Configuracoes no rodape*/
